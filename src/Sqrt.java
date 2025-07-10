@@ -1,9 +1,8 @@
 import java.util.function.UnaryOperator;
 
-public class SQRT {
-    UnaryOperator<Integer> iUO = i -> i * i;
-
+public class  Sqrt {
     public UnaryOperator<Integer> sqrt() {
-        return iUO;
+        return num -> num * num;
     }
 }
+
